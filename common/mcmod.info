@@ -1,0 +1,16 @@
+[
+{
+  "modid": "learning",
+  "name": "The Learning Mod",
+  "description": "A tutorial for the Pterodactyl Modders Club organization to learn how to use basic mods and Github.",
+  "version": "pre1",
+  "url": "https://github.com/Pterodactyl-Modders-Club/Tutorial-Repository.git",
+  "updateUrl": "",
+  "authorList": ["Darth_Feder", "Rock48", "The PMC Team"],
+  "credits": "By the Pterodactyl Modders Club",
+  "logoFile": "",
+  "screenshots": [],
+  "parent":"",
+  "dependencies": ["mod_MinecraftForge"]
+}
+]
