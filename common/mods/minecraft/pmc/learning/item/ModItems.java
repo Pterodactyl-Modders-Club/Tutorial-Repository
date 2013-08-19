@@ -13,7 +13,7 @@ public class ModItems
 
     //Items
     public static Item helmetWooden;
-    public static Item chestpieceWooden;
+    public static Item chestplateWooden;
     public static Item leggingsWooden;
     public static Item bootsWooden;
     
@@ -24,7 +24,7 @@ public class ModItems
     public static void init()
     {
         helmetWooden = new ArmorBase(ItemIDs.WOODEN_HELMET, WOODEN_ARMOR, 0, 0).setUnlocalizedName(Strings.WOODEN_HELMET);
-        chestpieceWooden = new ArmorBase(ItemIDs.WOODEN_CHEST, WOODEN_ARMOR, 0, 1).setUnlocalizedName(Strings.WOODEN_CHEST);
+        chestplateWooden = new ArmorBase(ItemIDs.WOODEN_CHEST, WOODEN_ARMOR, 0, 1).setUnlocalizedName(Strings.WOODEN_CHEST);
         leggingsWooden = new ArmorBase(ItemIDs.WOODEN_LEGGINGS, WOODEN_ARMOR, 0, 2).setUnlocalizedName(Strings.WOODEN_LEGGINGS);
         bootsWooden = new ArmorBase(ItemIDs.WOODEN_BOOTS, WOODEN_ARMOR, 0, 3).setUnlocalizedName(Strings.WOODEN_BOOTS);
     }
