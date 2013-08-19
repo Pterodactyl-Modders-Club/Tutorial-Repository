@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE properties SYSTEM "http://java.sun.com/dtd/properties.dtd">
+<properties version="1.0">
+	<comment>English (en_US) Localization File</comment>
+	
+	<entry key="item.helmetWooden.name">Wooden Helmet</entry>
+	<entry key="item.chestplateWooden.name">Wooden Chestplate</entry>
+	<entry key="item.leggingsWooden.name">Wooden Leggings</entry>
+	<entry key="item.bootsWooden.name">Wooden Boots</entry>
+	
+	<entry key="itemGroup.learning">PMC Tutorial Learning Mod</entry>
+</properties>

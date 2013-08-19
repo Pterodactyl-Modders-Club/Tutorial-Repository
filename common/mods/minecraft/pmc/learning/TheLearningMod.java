@@ -11,10 +11,12 @@ import cpw.mods.fml.common.event.FMLPostInitializationEvent;
 import cpw.mods.fml.common.event.FMLPreInitializationEvent;
 import cpw.mods.fml.common.network.NetworkMod;
 
+import mods.minecraft.pmc.learning.core.handler.LocalizationHandler;
 import mods.minecraft.pmc.learning.core.proxy.CommonProxy;
 import mods.minecraft.pmc.learning.creativetabs.CreativeTabLearning;
 import mods.minecraft.pmc.learning.item.ModItems;
 import mods.minecraft.pmc.learning.lib.Reference;
+import mods.minecraft.pmc.learning.recipe.ModRecipes;
 
 @Mod(modid = Reference.MOD_ID, name = Reference.MOD_NAME, version = Reference.VERSION)
 @NetworkMod(clientSideRequired = true, serverSideRequired = false)
@@ -33,8 +35,14 @@ public class TheLearningMod
     public void preInit(FMLPreInitializationEvent event)
     {
         
+        //Load Localizations
+        LocalizationHandler.loadLanguages();
+        
         //Initizialize Mod Items
         ModItems.init();
+        
+        //Initialize Mod recipes
+        ModRecipes.init();
         
     }
     
